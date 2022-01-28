@@ -3,7 +3,7 @@ services:
   web:
     build: ./app
     image: 469292325435.dkr.ecr.us-east-1.amazonaws.com/devops-django-aws:devops-django-aws_web
-    command: gunicorn nc_tutorials.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn learning_tracker.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - ./app/:/usr/src/app/
       - static_volume:/usr/src/app/static
