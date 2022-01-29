@@ -34,5 +34,5 @@ The final web-based application will:
 I deployed my project in AWS using Docker and AWS Elastic Container Registry. 
 ![API View](https://github.com/jordanwilso/devops_project/blob/main/API_learning_tracker.png)
 ![API View](https://github.com/jordanwilso/devops_project/blob/main/insomnia_POST_LT.png)
-![error message](https://github.com/jordanwilso/devops_project/blob/main/error_msg.png)
+
 
